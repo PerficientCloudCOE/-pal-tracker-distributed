@@ -6,6 +6,6 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://allocations-pal-faisul-parthi.apps.pcf.paltraining.perficient.com
+    REGISTRATION_SERVER_ENDPOINT: https://registration-pal-faisul-parthi.apps.pcf.paltraining.perficient.com/
   services:
   - tracker-allocations-database
