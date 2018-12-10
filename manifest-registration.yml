@@ -5,5 +5,7 @@ applications:
   - route: registration-pal-faisul-parthi.apps.pcf.paltraining.perficient.com
   memory: 1G
   instances: 1
+  env:
+     REGISTRATION_SERVER_ENDPOINT: http://registration-pal-faisul-parthi.apps.pcf.paltraining.perficient.com
   services:
   - tracker-registration-database
